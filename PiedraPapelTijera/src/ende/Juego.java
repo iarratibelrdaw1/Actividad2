@@ -107,6 +107,5 @@ class Jugador{
         return(exitos);
     }
     
-    int exitos;      // número de partidas ganadas
-    int winTotal;
+    int exitos; 
 }
