@@ -39,11 +39,10 @@ public class Juego
             String opcionJugador2 = p2.opcionAlAzar();
             System.out.println("Jugador 2: " + opcionJugador2+"\t Jugador 2 - Partidas ganadas: " + exitosJugador2);
             
-            if((opcionJugador1.equals("piedra")) && (opcionJugador2.equals(PAPEL)))
-            {
-                System.out.println(GANA2);
+            if((opcionJugador1.equals(PIEDRA)) && (opcionJugador2.equals(PAPEL)))
+            {	
+            	System.out.println(GANA2);
                 exitosJugador2 += p2.getExitos();
-                
             }
             else if((opcionJugador1.equals(PAPEL)) && (opcionJugador2.equals(PIEDRA)))
             {
