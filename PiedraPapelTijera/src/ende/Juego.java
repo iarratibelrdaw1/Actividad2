@@ -21,10 +21,10 @@ public class Juego
         Jugador p1 = new Jugador();
         Jugador p2 = new Jugador();
         boolean finDeJuego = false;  
-        Integer Rondasjugadas = 0;    // Numero de rondas jugadas
-        Integer exitosJugador1 = p1.getExitos();
-        Integer exitosJugador2 = p2.getExitos();
-        Integer empates = 0;
+        int Rondasjugadas = 0;    // Numero de rondas jugadas
+        int exitosJugador1 = p1.getExitos();
+        int exitosJugador2 = p2.getExitos();
+        int empates = 0;
        
         
         
@@ -97,7 +97,7 @@ class Jugador{
     public String opcionAlAzar()
     {
         String opcion =  "";
-        Integer c = (int)(Math.random() * 3);
+        int c = (int)(Math.random() * 3);
         switch(c){
             case 0:
             	opcion = ("piedra");
