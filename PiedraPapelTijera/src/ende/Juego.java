@@ -17,6 +17,7 @@ public class Juego
     	String PAPEL = "papel";
     	String PIEDRA = "piedra";
     	String TIJERA = "tijeras";
+    	
     	//Variables
         Jugador p1 = new Jugador();
         Jugador p2 = new Jugador();
@@ -26,7 +27,6 @@ public class Juego
         int exitosJugador2 = p2.getExitos();
         int empates = 0;
        
-        
         
         
         // Bucle de juego
