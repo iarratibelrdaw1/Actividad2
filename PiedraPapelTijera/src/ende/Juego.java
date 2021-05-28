@@ -12,11 +12,11 @@ public class Juego
     {
     	//Atributos
     	//Constantes
-    	String GANA1 = "Jugador 1 GANA";
-    	String GANA2 = "Jugador 2 GANA";
-    	String PAPEL = "papel";
-    	String PIEDRA = "piedra";
-    	String TIJERA = "tijeras";
+    	final String GANA1 = "Jugador 1 GANA";
+    	final String GANA2 = "Jugador 2 GANA";
+    	final String PAPEL = "papel";
+    	final String PIEDRA = "piedra";
+    	final String TIJERA = "tijeras";
     	
     	//Variables
         Jugador p1 = new Jugador();
